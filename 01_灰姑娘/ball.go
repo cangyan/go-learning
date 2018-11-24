@@ -42,8 +42,8 @@ func (b *Ball) Finish() {
 	fmt.Println("舞会结束")
 }
 
-// IsFinish ...
-func (b *Ball) IsFinish() bool {
+// IsFinished ...
+func (b *Ball) IsFinished() bool {
 	return b.Clock >= b.FinishedAt
 }
 
