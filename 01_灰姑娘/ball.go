@@ -23,7 +23,7 @@ func NewBall(startedAt, finishedAt int) *Ball {
 
 // Start ...
 func (b *Ball) Start() {
-	fmt.Printf("舞会开始")
+	fmt.Printf("舞会开始\n")
 }
 
 // Dancing ...
