@@ -51,10 +51,10 @@ func (b *Ball) IsFinish() bool {
 func (b *Ball) Entry(a *Actor) {
 	if a.Cos != nil {
 		b.Entries = append(b.Entries, a)
-		fmt.Printf("%v 参加了舞会", a.Name)
+		fmt.Printf("%v 参加了舞会\n", a.Name)
 	} else {
 		fmt.Println("没有服装不能参加舞会")
-		fmt.Printf("%v 不能参加舞会", a.Name)
+		fmt.Printf("%v 不能参加舞会\n", a.Name)
 	}
 }
 
