@@ -31,7 +31,7 @@ func (m *Magic) GenerateGlassShoes() *Shoes {
 // Limit ...
 func (m *Magic) Limit(limit chan int) {
 	<-limit
-	fmt.Println("快到晚上12点了")
+	fmt.Println("快到晚上0点了")
 	fmt.Println("魔法要被解除了")
 	m.Broken <- 1
 }
