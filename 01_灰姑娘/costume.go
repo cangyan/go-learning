@@ -5,12 +5,12 @@ type Costume interface {
 	Wear(a *Actor) bool
 }
 
-// Dress -- 礼服
+// Dress -- 连衣裙
 type Dress struct {
 	Owner *Actor
 }
 
-// NewDress -- 生成礼服
+// NewDress -- 生成连衣裙
 func NewDress(a *Actor) Costume {
 	return &Dress{
 		Owner: a,

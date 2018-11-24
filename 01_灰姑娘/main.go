@@ -10,4 +10,7 @@ func main() {
 	sisterA.Say("今天欺负一下辛德瑞拉～～～")
 	sisterB.Say("今天欺负一下辛德瑞拉～～～")
 	cinderella.Say("orz...")
+
+	ball := NewBall(19, 27)
+	ball.Start()
 }
